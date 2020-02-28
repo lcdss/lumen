@@ -1,0 +1,11 @@
+version: "3.6"
+
+services:
+  db:
+    image: postgres:alpine
+    container_name: lumen-db
+    environment:
+      POSTGRES_USER: lumen
+      POSTGRES_PASSWORD: secret
+    ports:
+      - 5432:5432

@@ -1,0 +1,5 @@
+/vendor
+
+*.sqlite
+.byebug_history
+/spec/examples.txt
